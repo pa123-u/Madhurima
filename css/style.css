@@ -1,0 +1,122 @@
+body{
+  text-align: center;
+   font-family: 'Merriweather', serif;
+  color: #40514E;
+  margin: 0;
+}
+.top_container{
+  background-color: #e4f9ff;
+  position:relative;
+  padding-top: 100px;
+}
+.middle_container{
+  margin: 100px 0;
+}
+.bottom_container{
+  background-color: #66BFBF;
+  margin: 100px 3px 100px;
+  padding: 123px 0 41px;
+}
+.top_cloud{
+  position: absolute;
+  right: 274px;
+  top: 54px;
+}
+.bottom_cloud{
+  position: absolute;
+  bottom: 65px;
+  left:222px;
+}
+h1{
+  margin: 50px auto 2.5rem auto;
+ font-family: 'Sacramento', cursive;
+font-size: 78px;
+  color: #2c786c;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
+  color: #2c786c;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+.intro{
+  width: 50%;
+  margin: 20px auto;
+  line-height: 1.5;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 6%;
+  margin: 100px auto;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+.skill_row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+  .skill_1{
+    float: left;
+    height: 118px;
+    width: 128px;
+    margin-right: 80px;
+  }
+  .skill_2{
+    float: right;
+    height: 118px;
+    width: 128px;
+    margin-left: 80px;
+  }
+  .skill_3{
+    float: left;
+    height: 118px;
+    width: 128px;
+    margin-right: 80px;
+  }
+
+
+  .buttonClass {
+  font-size:15px;
+  font-family:Verdana;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#ffffff;
+  margin: 100px auto;
+  padding: 20px;
+  border-color:#124d77;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  text-shadow:inset 0px 1px 0px #154682;
+  background:linear-gradient(#007dc1, #0061a7);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#0061a7, #007dc1);
+}
+.footer-link{
+  font-family: 'Sacramento', cursive;
+  color: #11999E;
+  margin: 10px 15px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #FAFDD6
+}
+.copyright{
+  padding: 2px;
+  margin-top: 15px;
+}
